@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="libs/gsap/gsap.min.js"></script>
+    <script src="libs/gsap/ScrollTrigger.min.js"></script>
+    <script src="libs/gsap/ScrollSmoother.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="page-preloader" class="preloader">
+      <div class="preloader__wrapp loader">
+        <div class="preloader__one one bd_color"></div>
+        <div class="preloader__one two bd_color"></div>
+        <div class="preloader__one three bd_color"></div>
+        <div class="preloader__one four bd_color"></div>
+        <div class="preloader__two five bd_color"></div>
+        <div class="preloader__two sixt bd_color"></div>
+        <div class="preloader__two seven bd_color"></div>
+        <div class="preloader__two eight bd_color"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="content">
+        <header class="head">
+          <div class="head__container">
+            <img
+              data-lag=".5"
+              data-speed=".55"
+              class="hero"
+              src="img/hero-min.webp"
+              alt="head-pic"
+            />
+            <div data-speed=".8" class="text__container">
+              <h1 class="content-title">GSAP integration</h1>
+            </div>
+          </div>
+        </header>
+        <div class="main">
+          <div class="main__container">
+            <div data-speed=".9" class="gallery__left">
+              <img class="gallery__item" src="img/work/1.jpg" alt="1" />
+              <img class="gallery__item" src="img/work/2.jpg" alt="2" />
+              <div class="text-block gallery__item">
+                <h2 class="text-block__title">Lorem ipsum dolor sit amet</h2>
+                <p class="text-block__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor amount scrolling.
+                </p>
+              </div>
+              <img class="gallery__item" src="img/work/6.jpg" alt="6" />
+            </div>
+            <div data-speed="1.1" class="gallery__right">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__title">Lorem ipsum dolor sit amet</h2>
+                <p class="text-block__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor amount scrolling.
+                </p>
+              </div>
+              <img class="gallery__item" src="img/work/4.jpg" alt="4" />
+              <img class="gallery__item" src="img/work/5.jpg" alt="5" />
+              <img class="gallery__item" src="img/work/3.jpg" alt="3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
